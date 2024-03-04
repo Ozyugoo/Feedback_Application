@@ -1,8 +1,9 @@
-# React + Vite
+# REVIEW APPLICATION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This application was built using React + Vite
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### The purpose of this App is to 
+- collect reviews and ratings from users, 
+- check and display the average of the total rating collected
+- display the number of reviews collected 
+- Can also clear the reviews stored 
