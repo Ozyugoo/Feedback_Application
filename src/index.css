@@ -115,7 +115,12 @@ header {
   flex-direction: row;
   border: 1px solid #ccc;
   padding: 8px 10px;
-  border-radius: 8px;
+  border-radius: 8px; 
+}
+
+.spanStyle {
+  display: block;
+  font-style: italic;
 }
 
 input {
@@ -137,6 +142,7 @@ input:focus {
   padding: 10px 40px;
   border-radius: 80px;
   font-weight: 600;
+  margin: 30px 10px;
 }
 
 .no-reviews {
@@ -207,7 +213,7 @@ input:focus {
 .message {  
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: #ff6a95;
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
