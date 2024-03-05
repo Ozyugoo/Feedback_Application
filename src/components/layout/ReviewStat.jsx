@@ -15,7 +15,9 @@ function ReviewStat({reviews}) {
       <div className="review-stats">
         <p>Reviews: {reviews.length}</p>
 
-        <p>Average: {isNaN(average) ? <em>No ratings yet</em> : average }</p>
+        <p>
+          Average: {isNaN(average) ? <em>No ratings yet</em> : average} &#47; {reviews.length}
+        </p>
       </div>
     </>
   )
