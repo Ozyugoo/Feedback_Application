@@ -1,9 +1,10 @@
 import { useState } from "react"
+import { BrowserRouter as Router } from "react-router-dom"
 import Header from "./components/layout/Header"
-import ReviewLists from './components/layout/ReviewLists'
+import ReviewLists from './components/ReviewLists'
 import Data from './components/data/data'
-import ReviewStat from "./components/layout/ReviewStat"
-import ReviewForm from "./components/layout/ReviewForm"
+import ReviewStat from "./components/ReviewStat"
+import ReviewForm from "./components/ReviewForm"
 import {v4 as uuid} from 'uuid'
 
 
